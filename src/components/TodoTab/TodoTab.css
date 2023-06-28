@@ -1,0 +1,93 @@
+.todo-tab-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tab-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.tab-button.active {
+    color: black;
+    border-bottom: 3px solid #2b68ea;
+}
+
+.add-task-form {
+    margin-bottom: 20px;
+}
+
+.form-task {
+    display: flex;
+}
+
+.task-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.add-button {
+    padding: 10px 20px;
+    background-color: #2b68ea;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.task-content {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.task-content.completed {
+    text-decoration: line-through;
+}
+
+.delete-button {
+    padding: 5px 10px;
+    background-color: white;
+    color: rgb(208, 14, 14);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-all {
+    text-align: end;
+}
+
+.delete-all-button {
+    padding: 10px 20px;
+    background-color: #e82222;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
